@@ -1,4 +1,4 @@
-# for sum of no.s as inputs
+# till last number as input
 print("Enter the end number/range of fibonacci series: ", end="")
 n = int(input())
 print("The Series is: ", end="")
