@@ -1,28 +1,28 @@
 # for sum of no.s as inputs
-# print("Enter the end number/range of fibonacci series: ", end="")
-# n = int(input())
-# print("The Series is: ", end="")
+print("Enter the end number/range of fibonacci series: ", end="")
+n = int(input())
+print("The Series is: ", end="")
 
 
-# def fibonacci(n):
-#     c = 0
-#     a = 0
-#     b = 1
-#     if n == 0:
-#         print(a, end=" ")
-#     if n == 1:
-#         print(a, b, end=" ")
-#     else:
-#         print(a, b, end=" ")
-#         while c < n:
-#             c = a + b
-#             if c <= n:
-#                 print(c, end=" ")
-#             a = b
-#             b = c
+def fibonacci(n):
+    c = 0
+    a = 0
+    b = 1
+    if n == 0:
+        print(a, end=" ")
+    if n == 1:
+        print(a, b, end=" ")
+    else:
+        print(a, b, end=" ")
+        while c < n:
+            c = a + b
+            if c <= n:
+                print(c, end=" ")
+            a = b
+            b = c
 
 
-# fibonacci(n)
+fibonacci(n)
 
 
 # for total digits as inputs
