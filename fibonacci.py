@@ -2,7 +2,7 @@
 print("Enter the end number/range of fibonacci series: ", end="")
 n = int(input())
 print("The Series is: ", end="")
-
+ 
 
 def fibonacci(n):
     c = 0
